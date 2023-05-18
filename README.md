@@ -1,7 +1,8 @@
-# Website
-========
+# Website for PHPDD23
 
-Website template forked from [dirkfabisch/mediator](https://github.com/dirkfabisch/mediator).
+## Requirements
+
+- Ruby gem installed
 
 ## Installation
 
@@ -14,3 +15,10 @@ Website template forked from [dirkfabisch/mediator](https://github.com/dirkfabis
 ## Serve site locally
 
 - run `make serve`
+
+You can make changes to the site and the site gets rebuilt automatically.
+
+## Publish changes
+
+Commit all changes and push them to the main branch of the repository.
+GitHub Pages will build and publish the changes automatically.
