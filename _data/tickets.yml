@@ -1,0 +1,8 @@
+book_url: '#'
+prices:
+  - name: Regular price
+    price: '49,- €'
+  - name: Price with discount for members of the PHP USERGROUP DRESDEN e.V.
+    price: '39,- €'
+  - name: Price with discount for sponsors of the event
+    price: '39,- €'

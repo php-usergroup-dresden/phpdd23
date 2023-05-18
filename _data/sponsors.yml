@@ -1,0 +1,53 @@
+email: 'orga@phpug-dresden.org'
+partner_package:
+  price: '500,- €'
+  price_reduced: '400,- €'
+  headline: 'What is a partner package?'
+  bullets:
+    - 3 x free tickets
+    - Company banner at the venue
+    - Logo and link on our website
+    - Post on our social media channels
+    - Visibility in the event app
+    - Announcement at the opening
+    - Promotional material including job advertisements
+additions:
+    headline: 'You want more?'
+    description: >
+      We offer individually priced additions to the partner package:
+    bullets:
+      - 'Company booth (2x2 meters with 2 representatives)'
+      - 'Badge and key band sponsor'
+      - 'Food, cake and drinks sponsor'
+      - 'Speaker sponsor: Small gifts are presented in the name of the sponsor'
+      - 'Own slide at the opening'
+      - 'Exclusive 90 seconds speaker slot at the opening'
+      - 'Own lecture slot (if the topic fits)'
+      - 'Use of CONFGAMES: 50 guaranteed conversations'
+      - '1x mobile app sponsor — Look&Feel of the app in your design'
+
+sponsors:
+  - name: 'Sponsor 1'
+    type: 'GOLD Sponsor'
+    image: 'https://dummyimage.com/300x300/fff/aaa'
+    url: 'https://www.example.com'
+
+  - name: 'Sponsor 2'
+    type: 'Silver Sponsor'
+    image: 'https://dummyimage.com/300x300/fff/aaa'
+    url: 'https://www.example.com'
+
+  - name: 'Sponsor 3'
+    type: 'Silver Sponsor'
+    image: 'https://dummyimage.com/300x300/fff/aaa'
+    url: 'https://www.example.com'
+
+  - name: 'Sponsor 4'
+    type: 'BRONZE Sponsor'
+    image: 'https://dummyimage.com/300x300/fff/aaa'
+    url: 'https://www.example.com'
+
+  - name: 'Sponsor 5'
+    type: 'BRONZE Sponsor'
+    image: 'https://dummyimage.com/300x300/fff/aaa'
+    url: 'https://www.example.com'
