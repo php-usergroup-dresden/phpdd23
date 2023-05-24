@@ -3,13 +3,15 @@ layout: default
 ---
 <h1 id="home">Welcome</h1>
 
-<b>It is happening again!</b>
-<p>
-	After four years of absence, the community event for PHP developers and beyond is back in Dresden!
-</p>
-<p>
-	Join us for a day packed with talks, networking and fun on September 22, 2023.
-</p>
+<div class="welcome-text">
+	<h2>It is happening again! 🎉</h2>
+	<h3 class="h4">
+		After four years of absence, the community event for PHP developers and beyond is back in Dresden!
+	</h3>
+	<h3 class="h4">
+		Join us for a day packed with talks, networking and fun on September 22, 2023.
+	</h3>
+</div>
 
 <hr class="m-5">
 
@@ -51,24 +53,30 @@ layout: default
 <h1 id="venue">Venue</h1>
 
 <div class="row">
-	<div class="col">
+	<div class="col-12 col-md-6">
 		<h3>{{ site.data.venue.name }}</h3>
 		<p>
-			{{ site.data.venue.address_full }}
+			<a href="{{ site.data.venue.map_url }}" target="_blank">{{ site.data.venue.address_full }}</a>
 		</p>
 		<p>
 			{{ site.data.venue.description }}
 		</p>
 	</div>
-	<div class="col-auto">
-		<iframe width="400" height="400" frameborder="0" scrolling="no" marginheight="0" marginwidth="0"
-				src="https://www.openstreetmap.org/export/embed.html?bbox=13.724584579467775%2C51.05389564347426%2C13.729160428047182%2C51.05706185695714&amp;layer=mapnik"
-				style="border: 1px solid #808080"></iframe>
-		<br>
-		<a href="https://www.openstreetmap.org/#map=18/51.05548/13.72687" target="_blank" class="small">
-			View Larger Map</a>
-
+	<div class="col-12 col-md-6">
+		<img src="{{ site.data.venue.image_url }}" alt="{{ site.data.venue.name }}" class="img-fluid">
 	</div>
+</div>
+
+<div class="background-image" style="background-image: url('{{ site.data.venue.audience_image_url }}');">
+	<div class="image-text">
+		<small>PHP Developer Day 2017</small>
+	</div>
+</div>
+
+<div class="mt-3 mb-3">
+	<img src="{{ site.data.venue.map_image_url }}" alt="{{ site.data.venue.name }}" class="img-fluid">
+	<br>
+	<a href="{{ site.data.venue.map_url }}" target="_blank" class="small">View Larger Map</a>
 </div>
 
 <hr class="m-5">
@@ -128,7 +136,9 @@ layout: default
 			</a>
 			{% endif %}
 			<div class="card-body">
-				<h5 class="card-title">{{ sponsor.name }} &mdash; {{ sponsor.type }}</h5>
+				<h5 class="card-title text-center">
+					<a href="{{ sponsor.url }}" target="_blank">{{ sponsor.name }}</a>
+				</h5>
 			</div>
 		</div>
 	</div>
