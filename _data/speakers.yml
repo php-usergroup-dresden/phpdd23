@@ -1,5 +1,5 @@
 speakers:
-  - name: 'Mrs. Speaker'
+  - name: 'Speaker'
     bio: 'Vivamus sagittis lacus vel augue laoreet rutrum faucibus dolor auctor. Aenean eu leo quam. Pellentesque ornare sem lacinia quam venenatis vestibulum. Curabitur blandit tempus porttitor. Fusce dapibus, tellus ac cursus commodo, tortor mauris condimentum nibh, ut fermentum massa justo sit amet risus.'
     image: 'https://dummyimage.com/300x300/fff/aaa'
     talk: 'Ipsum Risus Ligula Euismod Pellentesque'
@@ -11,7 +11,7 @@ speakers:
       - icon: 'mastodon'
         url: 'https://phpc.social/@phpugdd'
 
-  - name: 'Mr. Speaker'
+  - name: 'Speaker'
     bio: 'Aenean eu leo quam. Pellentesque ornare sem lacinia quam venenatis vestibulum. Cras mattis consectetur purus sit amet fermentum. Etiam porta sem malesuada magna mollis euismod. Donec sed odio dui.'
     image: 'https://dummyimage.com/300x300/fff/aaa'
     talk: 'Condimentum Tortor Egestas Mattis Commodo'
@@ -23,7 +23,7 @@ speakers:
       - icon: 'mastodon'
         url: 'https://phpc.social/@phpugdd'
 
-  - name: 'Mrs. Speaker'
+  - name: 'Speaker'
     bio: 'Vivamus sagittis lacus vel augue laoreet rutrum faucibus dolor auctor. Aenean eu leo quam. Pellentesque ornare sem lacinia quam venenatis vestibulum. Curabitur blandit tempus porttitor. Fusce dapibus, tellus ac cursus commodo, tortor mauris condimentum nibh, ut fermentum massa justo sit amet risus.'
     image: 'https://dummyimage.com/300x300/fff/aaa'
     talk: 'Ipsum Risus Ligula Euismod Pellentesque'
@@ -35,7 +35,7 @@ speakers:
       - icon: 'mastodon'
         url: 'https://phpc.social/@phpugdd'
 
-  - name: 'Mr. Speaker'
+  - name: 'Speaker'
     bio: 'Aenean eu leo quam. Pellentesque ornare sem lacinia quam venenatis vestibulum. Cras mattis consectetur purus sit amet fermentum. Etiam porta sem malesuada magna mollis euismod. Donec sed odio dui.'
     image: 'https://dummyimage.com/300x300/fff/aaa'
     talk: 'Condimentum Tortor Egestas Mattis Commodo'
