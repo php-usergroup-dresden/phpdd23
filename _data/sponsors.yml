@@ -27,27 +27,26 @@ additions:
       - '1x mobile app sponsor — Look&Feel of the app in your design'
 
 sponsors:
-  - name: 'Sponsor 1'
-    type: 'GOLD Sponsor'
-    image: 'https://dummyimage.com/300x300/fff/aaa'
+  - name: 'LINEUPR GmbH'
+    image: '/assets/images/sponsors/lineupr.webp'
+    url: 'https://lineupr.com'
+
+  - name: 'move elevator GmbH'
+    image: '/assets/images/sponsors/move-elevator.webp'
+    url: 'https://www.move-elevator.de'
+
+  - name: 'MPOWR IT GmbH'
+    image: '/assets/images/sponsors/mpowr-it.webp'
     url: 'https://www.example.com'
 
-  - name: 'Sponsor 2'
-    type: 'Silver Sponsor'
+  - name: '☝️ Your company logo here'
     image: 'https://dummyimage.com/300x300/fff/aaa'
-    url: 'https://www.example.com'
+    url: 'mailto:orga@phpug-dresden.org'
 
-  - name: 'Sponsor 3'
-    type: 'Silver Sponsor'
+  - name: '☝️ Your company logo here'
     image: 'https://dummyimage.com/300x300/fff/aaa'
-    url: 'https://www.example.com'
+    url: 'mailto:orga@phpug-dresden.org'
 
-  - name: 'Sponsor 4'
-    type: 'BRONZE Sponsor'
+  - name: '☝️ Your company logo here'
     image: 'https://dummyimage.com/300x300/fff/aaa'
-    url: 'https://www.example.com'
-
-  - name: 'Sponsor 5'
-    type: 'BRONZE Sponsor'
-    image: 'https://dummyimage.com/300x300/fff/aaa'
-    url: 'https://www.example.com'
+    url: 'mailto:orga@phpug-dresden.org'
