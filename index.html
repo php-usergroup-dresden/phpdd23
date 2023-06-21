@@ -81,6 +81,22 @@ layout: default
 
 <hr class="m-5">
 
+<h1 id="tickets">Tickets</h1>
+
+<script type="text/javascript">
+    let SiteID = "36986ACF-2931-47BE-BDE2-1A9149348070";
+    let EID = 0;
+    let EDID = 0;
+    let Page = "ListEvents";
+    let Width = "100%";
+    let Height = "400";
+    let BgdColor = "#FFFFFF";
+</script>
+<script type="text/javascript" src="https://connect.vbotickets.com/_assets/js/plugin.js"></script>
+<div id="MyEvent" style="width: 100%;"></div>
+
+<hr class="m-5">
+
 <div class="d-flex justify-content-between">
 	<h1 id="sponsors">Sponsors</h1>
 	<div>
@@ -143,42 +159,6 @@ layout: default
 		</div>
 	</div>
 	{% endfor %}
-</div>
-
-<hr class="m-5">
-
-<h1 id="tickets">Tickets</h1>
-
-<table class="table table-striped">
-	<thead>
-	<tr>
-		<th>Ticket type</th>
-		<th class="w-25">Price</th>
-	</tr>
-	</thead>
-	<tbody>
-	{% for price in site.data.tickets.prices %}
-	<tr>
-		<td>
-			{{ price.name }}
-		</td>
-		<th>
-			{{ price.price }}
-		</th>
-	</tr>
-	{% endfor %}
-	</tbody>
-</table>
-
-<div class="text-center mb-5 mt-3">
-	<a href="{{ site.data.tickets.book_url }}" target="_blank" class="btn btn-primary btn-lg">
-		Book your ticket now
-		&nbsp;
-		<i class="fa fa-ticket text-white"></i>
-	</a>
-	<p class="small text-muted">
-		Ticket are not available, yet.
-	</p>
 </div>
 
 <hr class="m-5">
