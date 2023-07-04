@@ -2,7 +2,7 @@ speakers:
   - name: 'Dr. Carola Lilienthal'
     bio: 'Dr. Carola Lilienthal ist Software-Architektin und Geschäftsführerin bei WPS - Workplace Solutions GmbH. Seit 2003 analysiert sie die Zukunftsfähigkeit von Softwarearchitekturen und spricht auf Konferenzen über dieses Thema. 2015 hat sie ihre Erfahrungen in dem Buch „Langlebige Softwarearchitekturen“ zusammengefasst und steht kurz vor der Veröffentlichung ihres nächsten Buches „Domain-Driven Transformation“.'
     image: '/assets/images/speakers/carola_lilienthal.jpg'
-    talk: 'tbd.'
+    talk: 'Wie cool ist das denn? - Ein halbes Jahrhundert der Software-Entwicklung ist von einem überraschenden Phänomen geprägt: Wir, die Entwickler:innen und Architekt:innen, haben nicht nur immer wieder neue Technologien und Architekturansätze geschaffen, sondern auch Methoden und Verfahren entwickelt, die über die reine Programmierung von Software hinausgehen. Projektleiter:innen, Anwender:innen, Betriebs- und Qualitätsmanager:innen haben von unseren Innovationen profitiert. In diesem Vortrag berichte ich über die erstaunlichen Beiträge, die unsere Disziplin konzipiert und entwickelt hat. Nach dieser Reise werdet Ihr voller Motivation in die nächsten Vorträge gehen.“'
     social:
       - icon: 'twitter'
         url: 'https://twitter.com/cairolali'
