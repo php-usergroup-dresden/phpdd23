@@ -39,9 +39,9 @@ sponsors:
     image: '/assets/images/sponsors/mpowr-it.webp'
     url: 'https://www.example.com'
 
-  - name: '☝️ Your company logo here'
-    image: 'https://dummyimage.com/300x300/fff/aaa'
-    url: 'mailto:orga@phpug-dresden.org'
+  - name: 'FORTUNE SOLUTIONS'
+    image: '/assets/images/sponsors/FortuneSolutions.webp'
+    url: 'https://fortuneglobe.com'
 
   - name: '☝️ Your company logo here'
     image: 'https://dummyimage.com/300x300/fff/aaa'
