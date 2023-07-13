@@ -43,6 +43,10 @@ sponsors:
     image: '/assets/images/sponsors/FortuneSolutions.webp'
     url: 'https://fortuneglobe.com'
 
+  - name: 'Ostec GmbH'
+    image: '/assets/images/sponsors/ostec.webp'
+    url: 'https://ostec.de'
+
   - name: '☝️ Your company logo here'
     image: 'https://dummyimage.com/300x300/fff/aaa'
     url: 'mailto:orga@phpug-dresden.org'
