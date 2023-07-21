@@ -10,21 +10,6 @@ speakers:
         url: 'https://www.linkedin.com/in/carola-lilienthal-a1331073/'
       - icon: 'mastodon'
         url: 'https://mastodon.world/@carolali'
-
-  - name: 'Tomas Votruba'
-    bio: 'Tomas is a PHP trainer, legacy code cleaner, blogger and open-source developer. He love to connect with people and improve their everyday lives. His passion and daily work is tidying up code and empowering weakest parts. By removing frictions, the code becomes stable, easy to understand and even self-repairing. To make this happen faster and in scale, he created Rector - a PHP CLI tool for instant upgrades and automated refactoring. It is catching up pretty well among PHP community around the world - from Symfony to Drupal. He connected with Matthias Noback and we wrote a book about Rector "Rector - The Power of Automated Refactoring"
-  Tomas founded Czech PHP community in 2015 to connect Czech PHP groups into united one, where they organized 50+ meetups and 20+ trainings across 5 cities.
-  He love to share his experience in conferences talks.'
-    image: '/assets/images/speakers/tomas_votruba.jpg'
-    talk: '10 Tricks to Master Legacy Projects Upgrades - We handle dozen legacy upgrades a year, in the Rector team. This experience gives us unique insights, how applications that are a joy to work look like. 
-What are the tricks to make your projects easy to evolve in the next 10 years? Come to my talk to see'
-    social:
-      - icon: 'twitter'
-        url: 'https://twitter.com/votrubaT'
-      - icon: 'linkedin'
-        url: 'https://www.linkedin.com/in/tomas-votruba'
-      - icon: 'mastodon'
-        url: 'https://phpc.social/@votrubaT'
   - name: 'Carsten Windler'
     bio: 'Carsten ist langjähriger PHP-Entwickler und seit PHP 3 seiner Lieblingssprache treu. Im Laufe der Jahre leitete er zudem mehrere Entwicklungsteams und -abteilungen. Sein Fokus gilt der Codequalität und der Umweltverträglichkeit von Software.
 
