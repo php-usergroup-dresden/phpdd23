@@ -34,6 +34,26 @@ Sebastian is an open source contributor and maintainer of phpbu and a git hook l
         url: 'https://twitter.com/movetodevnull'
       - icon: 'linkedin'
         url: 'https://de.linkedin.com/in/sebastian-feldmann-9b1921b9'
+  - name: 'Sebastian Kurfürst'
+    bio: "Sebastian ist leidenschaftlicher Software-Architekt & Coach, und seit über 20 Jahren in Open Source Projekten involviert. Nachdem er im TYPO3 Kernteam war, ist er seit über 13 Jahren mitverantwortlich für Neos CMS. Sebastian hat hier viele Teile maßgeblich mit gestaltet, u.a. die React-UI, und die Rendering-Schicht mit Fluid und Fusion. Momentan fokussiert er sich auf einen Umbau des Neos Content Repository auf Basis von Event Sourcing.
+Sebastian ist Mitgründer und Geschäftsführer von Sandstorm Media, einer Dresdner Web-Agentur mit Fokus auf nachhaltige Software. In seiner Freizeit geht er gern Klettern und verbringt Zeit mit seiner Familie."
+    image: '/assets/images/speakers/Sebastian-Kurfuerst.jpg'
+    talk: '"Debugging und Performance Profiling in der Praxis" - Fehler finden und beheben gehört zum täglichen Brot in der Software-Entwicklung. In diesem Talk geht es um einen methodischen Ansatz zum Finden von Fehlern. Wir werden uns insbesondere auf Performance Profiling konzentrieren, da es hier besondere Herausforderungen gibt, und einige der üblichen debugging-Tools wie XDebug nur eingeschränkt nutzbar sind. Wir werden verschiedene Werkzeuge sowie deren Einsatz besprechen, um Performance-Problemen effizient auf die Schliche zu kommen. Hierbei werden wir den gesamten Stack der Anwendung, incl. IO und Datenbank betrachten.'
+    social:
+      - icon: 'twitter'
+        url: 'https://twitter.com/skurfuerst'
+      - icon: 'mastodon'
+        url: 'https://neos.social/@sebastian'
+  - name: 'Florian Engelhardt'
+    bio: "Proud dad of five kids, husband, Linux and Vim, PHP, Rust, software architect, technical consultant, geek and I'm getting shit done."
+    image: '/assets/images/speakers/florian-engelhardt.jpeg'
+    talk: '"Growing the PHP core - One test at a time" - Ever dreamt of becoming a PHP core contributor but felt overwhelmed by the prospect of creating RFCs, maintaining extensions, or writing C code? Worry no more!
+In this talk, you will discover how to make a meaningful impact on the PHP core by writing tests without the need to write C code. Join me for an interactive session where I will live code a test on stage, demystifying the process and equipping you with essential testing techniques. Develop the confidence to contribute to the PHP core, one test at a time, and become an invaluable member of the PHP community.'
+    social:
+      - icon: 'twitter'
+        url: 'https://twitter.com/skurfuerst'
+      - icon: 'mastodon'
+        url: 'https://neos.social/@sebastian'
   - name: 'Roland Golla'
     bio: 'Roland Golla is a Cypress.IO ambassador and has specialized in automated processes for over 10 years. He is the founder of TESTIFY.TEAM, an agency for automated tests. A YouTuber and speaker, he has also advocated for mental health by overcoming a nervous breakdown through better software quality. Since then, he has advocated for workplace safety in the IT industry.'
     image: '/assets/images/speakers/roland-golla-klein.jpg'
@@ -47,12 +67,7 @@ Sebastian is an open source contributor and maintainer of phpbu and a git hook l
     bio: 'Andreas helps solving problems via his company stella-maris.solutions. He sometimes even uses code for that. His special interests are in weird topics like time and calendars, odd technologies like LDAP and organizational challenges related to remote work. Besides his family and contributions to different open-source-projects he still finds the time to co-run PHPUGFFM, the PHP-Usergroup in Frankfurt/Main and maintain PHP.ug. '
     image: '/assets/images/speakers/andreas-heigl.jpg'
     talk: 'TBA'
-  - name: 'Sebastian Kurfürst'
-    bio: "Sebastian is a member of the Neos team almost since its inception. He is most known for his work on Fluid, Extbase, and Fusion, but has worked on other parts of the source code as well. As co-founder and CTO at Sandstorm, he helps to build relevant solutions for clients, helping them to choose the right frontend and backend technologies. In his free time, you'll most likely find spend time with his wife and son, or you'll see him climbing in Saxon Switzerland."
-    image: '/assets/images/speakers/Sebastian-Kurfuerst.jpg'
+  - name: 'Ondřej Mirtes'
+    bio: "Ondřej is a full-time open-source software developer. He likes pointing out mistakes in other people's code so much that he created PHPStan (https://phpstan.org/), a popular static analyser that focuses on finding bugs in code without running it."
+    image: '/assets/images/speakers/ondrej-mirtes.jpg'
     talk: 'TBA'
-    social:
-      - icon: 'twitter'
-        url: 'https://twitter.com/skurfuerst'
-      - icon: 'mastodon'
-        url: 'https://neos.social/@sebastian'
