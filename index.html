@@ -21,11 +21,11 @@ layout: default
 	<div class="col">
 		<div class="card">
 			{% if speaker.image %}
-			<img src="{{ speaker.image }}" class="card-img-top" alt="{{ speaker.name }}">
+			<img src="{{ speaker.image }}" class="card-img-top" alt="{{ speaker.name }}" style="height: 480px; object-fit: cover;">
 			{% endif %}
 			<div class="card-body">
 				<div class="d-flex justify-content-between">
-					<h5 class="card-title">{{ speaker.name }}</h5>
+					<h4 class="card-title">{{ speaker.name }}</h4>
 					<div class="text-end">
 						{% for social in speaker.social %}
 						<a href="{{ social.url }}" class="card-link">
@@ -34,14 +34,24 @@ layout: default
 						{% endfor %}
 					</div>
 				</div>
-				{% if speaker.bio %}
-				<h6 class="mb-1">Bio</h6>
-				<p class="card-text">{{ speaker.bio }}</p>
-				{% endif %}
 				{% if speaker.talk %}
-				<h6 class="mb-1">Talk</h6>
-				<p class="card-text">"{{ speaker.talk }}"</p>
+				<h5 class="mb-1">Talk</h5>
+				<p class="card-text" style="height: 60px;">{{ speaker.talk.title }}</p>
+				<div class="collapse" id="collapse-{{ forloop.index }}">
+					<h5 class="mb-1">Abstract</h5>
+					<p class="card-text mb-3">{{ speaker.talk.abstract | newline_to_br }}</p>
+					{% if speaker.bio %}
+					<h5 class="mb-1">Bio</h5>
+					<p class="card-text mb-3">{{ speaker.bio | newline_to_br }}</p>
+					{% endif %}
+				</div>
 				{% endif %}
+			</div>
+			<div class="card-footer bg-white">
+				<a href="#collapse-{{ forloop.index }}" class="btn btn-outline-primary" data-bs-toggle="collapse"
+				   role="button" aria-expanded="false" aria-controls="collapse-{{ forloop.index }}">
+					Read more...
+				</a>
 			</div>
 		</div>
 	</div>
