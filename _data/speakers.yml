@@ -51,9 +51,9 @@ Sebastian ist Mitgründer und Geschäftsführer von Sandstorm Media, einer Dresd
 In this talk, you will discover how to make a meaningful impact on the PHP core by writing tests without the need to write C code. Join me for an interactive session where I will live code a test on stage, demystifying the process and equipping you with essential testing techniques. Develop the confidence to contribute to the PHP core, one test at a time, and become an invaluable member of the PHP community.'
     social:
       - icon: 'twitter'
-        url: 'https://twitter.com/skurfuerst'
+        url: 'https://twitter.com/realFlowControl'
       - icon: 'mastodon'
-        url: 'https://neos.social/@sebastian'
+        url: 'https://phpc.social/@flowcontrol'
   - name: 'Roland Golla'
     bio: 'Roland Golla is a Cypress.IO ambassador and has specialized in automated processes for over 10 years. He is the founder of TESTIFY.TEAM, an agency for automated tests. A YouTuber and speaker, he has also advocated for mental health by overcoming a nervous breakdown through better software quality. Since then, he has advocated for workplace safety in the IT industry.'
     image: '/assets/images/speakers/roland-golla-klein.jpg'
