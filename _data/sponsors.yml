@@ -47,9 +47,17 @@ sponsors:
     image: '/assets/images/sponsors/ostec.webp'
     url: 'https://ostec.de'
 
-  - name: '☝️ Your company logo here'
-    image: 'https://dummyimage.com/300x300/fff/aaa'
-    url: 'mailto:orga@phpug-dresden.org'
+  - name: 'dpunkt.verlag GmbH'
+    image: '/assets/images/sponsors/dpunktverlag.webp'
+    url: 'https://dpunkt.de/'
+
+  - name: 'webit! Gesellschaft für neue Medien mbH'
+    image: '/assets/images/sponsors/webit.webp'
+    url: 'https://www.webit.de/'
+
+  - name: 'Rheinwerk Verlag GmbH'
+    image: '/assets/images/sponsors/rheinwerk.webp'
+    url: 'https://www.rheinwerk-verlag.de/'
 
   - name: '☝️ Your company logo here'
     image: 'https://dummyimage.com/300x300/fff/aaa'
