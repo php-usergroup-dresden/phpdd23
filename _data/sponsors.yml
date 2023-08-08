@@ -59,6 +59,10 @@ sponsors:
     image: '/assets/images/sponsors/rheinwerk.webp'
     url: 'https://www.rheinwerk-verlag.de/'
 
+  - name: 'seventhings'
+    image: '/assets/images/sponsors/seventhings.webp'
+    url: 'https://www.seventhings.com/'
+
   - name: '☝️ Your company logo here'
     image: 'https://dummyimage.com/300x300/fff/aaa'
     url: 'mailto:orga@phpug-dresden.org'
