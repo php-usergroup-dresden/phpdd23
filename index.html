@@ -60,6 +60,33 @@ layout: default
 
 <hr class="m-5">
 
+<h1 id="lineup">Lineup</h1>
+
+<div class="row row-cols-1 row-cols-md-2 row-cols-lg-3 g-4">
+	<table class="table table-striped">
+		<thead>
+		<tr>
+			<th scope="col">Time</th>
+			<th scope="col">Topic</th>
+			<th scope="col">Speaker</th>
+			<th scope="col">Language</th>
+		</tr>
+		</thead>
+		<tbody>
+		{% for lineup in site.data.lineup.lineup %}
+			<tr>
+				<td>{{ lineup.time }}</td>
+				<td>{{ lineup.topic }}</td>
+				<td>{{ lineup.name }}</td>
+				<td>{{ lineup.language }}</td>
+			</tr>
+		{% endfor %}
+		</tbody>
+	</table>
+</div>
+
+<hr class="m-5">
+
 <h1 id="venue">Venue</h1>
 
 <div class="row">

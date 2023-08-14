@@ -1,0 +1,98 @@
+lineup:
+  - name: ''
+    time: '08:30'
+    topic: 'Einlass'
+    card: ''
+    language: ''
+    speaker: false
+
+  - name: 'Anke Häslich & Holger Woltersdorf'
+    time: '09:00'
+    topic: 'Opening'
+    card:
+    language: ''
+    speaker: false
+
+  - name: 'Dr. Carola Lilienthal'
+    time: '09:30'
+    topic: 'Wie cool ist das denn? (Welcome Keynote)'
+    card:
+    language: ''
+    speaker: true
+
+  - name: 'Carsten Windler'
+    time: '10:15'
+    topic: 'Pimp your PHP code for the planet'
+    card:
+    language: ''
+    speaker: true
+
+  - name: 'Sebastian Kurfürst'
+    time: '11:15'
+    topic: 'Debugging und Performance Profiling in der Praxis'
+    card: ''
+    language: ''
+    speaker: true
+
+  - name: ''
+    time: '12:00'
+    topic: 'Lunch Break'
+    card:
+    language: ''
+    speaker: false
+
+  - name: 'Andreas Heigl'
+    time: '13:15'
+    topic: '"Pardon my French" or The technical aspects of i18n and l10n'
+    card:
+    language: 'eng.'
+    speaker: true
+
+  - name: 'Florian Engelhardt'
+    time: '14:15'
+    topic: 'Growing the PHP core - One test at a time'
+    card:
+    language: 'eng.'
+    speaker: true
+
+  - name: ''
+    time: '15:00'
+    topic: 'Coffee Break'
+    card:
+    language: ''
+    speaker: false
+
+  - name: 'Ondřej Mirtes'
+    time: '15:30'
+    topic: 'Tuning PHPStan to Maximum Strictness'
+    card:
+    language: 'eng.'
+    speaker: true
+
+  - name: 'Roland Golla'
+    time: '16:30'
+    topic: 'Develop yourself - Open Source bringt uns alle weiter'
+    card:
+    language: ''
+    speaker: true
+
+  - name: 'Sebastian Feldmann'
+    time: '17:30'
+    topic: 'Mastering Code Reviews'
+    card:
+    language: ''
+    speaker: true
+
+  - name: 'Anke Häslich & Holger Woltersdorf'
+    time: '18:15'
+    topic: 'Closing'
+    card:
+    language: ''
+    speaker: false
+
+  - name: ''
+    time: '18:45'
+    topic: 'Afterwork Community'
+    card:
+    language: ''
+    speaker: false
