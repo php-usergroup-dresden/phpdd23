@@ -18,7 +18,8 @@ layout: default
 <h1 id="speakers">Speakers</h1>
 <div class="row row-cols-1 row-cols-md-2 row-cols-lg-3 g-4">
 	{% for speaker in site.data.speakers.speakers %}
-	<div class="col">
+	{% assign counter = forloop.index %}
+	<div class="col" id="speaker-{{ counter }}">
 		<div class="card">
 			{% if speaker.image %}
 			<img src="{{ speaker.image }}" class="card-img-top" alt="{{ speaker.name }}" style="height: 480px; object-fit: cover;">
@@ -77,7 +78,15 @@ layout: default
 			<tr>
 				<td>{{ lineup.time }}</td>
 				<td>{{ lineup.topic }}</td>
-				<td>{{ lineup.name }}</td>
+				<td>
+					{% if lineup.card %}
+					<a href="#speaker-{{ lineup.card }}">
+						{{ lineup.name }}
+					</a>
+					{% else %}
+						{{ lineup.name }}
+					{% endif %}
+				</td>
 				<td>{{ lineup.language }}</td>
 			</tr>
 		{% endfor %}
