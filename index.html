@@ -20,7 +20,7 @@ layout: default
 	{% for speaker in site.data.speakers.speakers %}
 	{% assign counter = forloop.index %}
 	<div class="col" id="speaker-{{ counter }}">
-		<div class="card">
+		<div class="card{% if counter == 1 %} border-primary{% endif %}">
 			{% if speaker.image %}
 			<img src="{{ speaker.image }}" class="card-img-top" alt="{{ speaker.name }}" style="height: 480px; object-fit: cover;">
 			{% endif %}
@@ -36,7 +36,7 @@ layout: default
 					</div>
 				</div>
 				{% if speaker.talk %}
-				<h5 class="mb-1">Talk</h5>
+				<h5 class="mb-1">{% if counter == 1 %}Keynote{% else %}Talk{% endif %}</h5>
 				<p class="card-text" style="height: 60px;">{{ speaker.talk.title }}</p>
 				<div class="collapse" id="collapse-{{ forloop.index }}">
 					<h5 class="mb-1">Abstract</h5>
@@ -51,6 +51,41 @@ layout: default
 			<div class="card-footer bg-white">
 				<a href="#collapse-{{ forloop.index }}" class="btn btn-outline-primary" data-bs-toggle="collapse"
 				   role="button" aria-expanded="false" aria-controls="collapse-{{ forloop.index }}">
+					Read more...
+				</a>
+			</div>
+		</div>
+	</div>
+	{% endfor %}
+	{% for moderator in site.data.moderators.moderators %}
+	{% assign counter = forloop.index %}
+	<div class="col" id="moderator-{{ counter }}">
+		<div class="card border-primary">
+			{% if moderator.image %}
+			<img src="{{ moderator.image }}" class="card-img-top" alt="{{ moderator.name }}" style="height: 480px; object-fit: cover;">
+			{% endif %}
+			<div class="card-body">
+				<div class="d-flex justify-content-between">
+					<h4 class="card-title">{{ moderator.name }}</h4>
+					<div class="text-end">
+						{% for social in moderator.social %}
+						<a href="{{ social.url }}" class="card-link">
+							<i class="fa-brands fa-{{ social.icon }}"></i>
+						</a>
+						{% endfor %}
+					</div>
+				</div>
+				<h5 class="mb-1">Moderator</h5>
+				<p class="card-text" style="height: 60px;">of the event</p>
+				<div class="collapse" id="moderator-collapse-{{ forloop.index }}">
+					<h5 class="mb-1">About</h5>
+					<p class="card-text mb-3">{{ moderator.description | newline_to_br }}</p>
+				</div>
+			</div>
+			<div class="card-footer bg-white">
+				<a href="#moderator-collapse-{{ forloop.index }}" class="btn btn-outline-primary"
+				   data-bs-toggle="collapse" role="button" aria-expanded="false"
+				   aria-controls="moderator-collapse-{{ forloop.index }}">
 					Read more...
 				</a>
 			</div>
