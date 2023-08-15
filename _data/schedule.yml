@@ -1,7 +1,7 @@
-lineup:
+schedule:
   - name: ''
     time: '08:30'
-    topic: 'Einlass'
+    topic: 'Doors Open'
     card: ''
     language: ''
     speaker: false
@@ -15,7 +15,7 @@ lineup:
 
   - name: 'Dr. Carola Lilienthal'
     time: '09:30'
-    topic: 'Wie cool ist das denn? (Welcome Keynote)'
+    topic: 'Wie cool ist das denn? (Keynote)'
     card: '1'
     language: ''
     speaker: true
@@ -45,14 +45,14 @@ lineup:
     time: '13:15'
     topic: '"Pardon my French" or The technical aspects of i18n and l10n'
     card: '7'
-    language: 'eng.'
+    language: 'en'
     speaker: true
 
   - name: 'Florian Engelhardt'
     time: '14:15'
     topic: 'Growing the PHP core - One test at a time'
     card: '5'
-    language: 'eng.'
+    language: 'en'
     speaker: true
 
   - name: ''
@@ -66,7 +66,7 @@ lineup:
     time: '15:30'
     topic: 'Tuning PHPStan to Maximum Strictness'
     card: '8'
-    language: 'eng.'
+    language: 'en'
     speaker: true
 
   - name: 'Roland Golla'
@@ -92,7 +92,7 @@ lineup:
 
   - name: ''
     time: '18:45'
-    topic: 'Afterwork Community'
+    topic: 'Community & Socializing'
     card:
     language: ''
     speaker: false

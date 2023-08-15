@@ -77,3 +77,11 @@ ul, ol {
   line-height: 40px;
   cursor: pointer;
 }
+
+a.speaker-link > h5 {
+  color: var(--bs-link-color);
+}
+
+a.speaker-link:hover > h5 {
+  color: var(--bs-link-hover-color);
+}

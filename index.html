@@ -61,7 +61,11 @@ layout: default
 
 <hr class="m-5">
 
-<h1 id="lineup">Lineup</h1>
+<h1 id="schedule">Schedule</h1>
+
+<p>
+	There may still be changes to the schedule.
+</p>
 
 <div class="row row-cols-1 row-cols-md-2 row-cols-lg-3 g-4">
 	<table class="table table-striped">
@@ -74,21 +78,32 @@ layout: default
 		</tr>
 		</thead>
 		<tbody>
-		{% for lineup in site.data.lineup.lineup %}
-			<tr>
-				<td>{{ lineup.time }}</td>
-				<td>{{ lineup.topic }}</td>
-				<td>
-					{% if lineup.card %}
-					<a href="#speaker-{{ lineup.card }}">
-						{{ lineup.name }}
-					</a>
-					{% else %}
-						{{ lineup.name }}
-					{% endif %}
-				</td>
-				<td>{{ lineup.language }}</td>
-			</tr>
+		{% for entry in site.data.schedule.schedule %}
+		<tr>
+			{% if entry.speaker %}
+				{% assign startTag = '<h5>' %}
+				{% assign endTag = '</h5>' %}
+			{% else %}
+				{% assign startTag = '<h6 class="text-secondary">'%}
+				{% assign endTag = '</h6>'%}
+			{% endif %}
+			<td>{{ startTag }}{{ entry.time }}{{ endTag }}</td>
+			<td>{{ startTag }}{{ entry.topic }}{{ endTag }}</td>
+			<td>
+				{% if entry.card %}
+				<a href="#speaker-{{ entry.card }}" class="speaker-link">
+					{{ startTag }}{{ entry.name }}{{ endTag }}
+				</a>
+				{% else %}
+				{{ startTag }}{{ entry.name }}{{ endTag }}
+				{% endif %}
+			</td>
+			<td>
+				{% if entry.language != '' %}
+					{{ startTag }}<span class="flag-icon flag-icon-{{ entry.language }}"></span>{{ endTag }}
+				{% endif %}
+			</td>
+		</tr>
 		{% endfor %}
 		</tbody>
 	</table>
