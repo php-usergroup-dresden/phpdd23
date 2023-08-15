@@ -128,9 +128,15 @@ speakers:
       Since then, he has advocated for workplace safety in the IT industry.
     image: '/assets/images/speakers/roland-golla-klein.jpg'
     talk:
-      title: 'TBA'
+      title: 'Develop yourself - Open Source bringt uns alle weiter'
       abstract: |
-        TBA
+        Als Entwickler hat man es nicht immer leicht. Ständig sollen wir uns weiterentwickeln. 
+        
+        Aber nicht jeder Arbeitgeber lässt das auf der Arbeit zu. Und dann kommt noch dazu, dass man in seiner Freizeit einfach keinen Bock mehr hat etwas zu tun. 
+        
+        In diesem Talk zeige ich euch, wie ihr euch eine innere Persönlichkeit aufbaut, die jeden Schweinehund besiegt. 
+        
+        Dazu gibt es noch eine gehörige Portion Open Source Passion. Denn hier kommt man mit tollen Entwicklern in Kontakt und erfährt alles über richtig gute Software und Toolsets.
     social:
       - icon: 'twitter'
         url: 'https://twitter.com/nevercodealone'
@@ -146,9 +152,13 @@ speakers:
       Besides his family and contributions to different open-source-projects he still finds the time to co-run PHPUGFFM, the PHP-Usergroup in Frankfurt/Main and maintain PHP.ug.
     image: '/assets/images/speakers/andreas-heigl.jpg'
     talk:
-      title: 'TBA'
+      title: '"Pardon my French" or The technical aspects of i18n and l10n'
       abstract: |
-        TBA
+        Localization and Internationalization are two core concepts to create sites and applications for international users. 
+        
+        In creating and working on such international websites I repeatedly made or found the same mistakes and pitfalls that made creating international websites much harder than necessary. 
+        
+        Let me take you on a tour through the concepts and common problems that arise and see how they can be solved with less headache than you might think.
     social:
       - icon: 'mastodon'
         url: 'https://andreas.heigl.org/@heiglandreas'
@@ -162,9 +172,13 @@ speakers:
       He likes pointing out mistakes in other people's code so much that he created PHPStan, a popular static analyser that focuses on finding bugs in code without running it.
     image: '/assets/images/speakers/ondrej-mirtes.jpg'
     talk:
-      title: 'TBA'
+      title: 'Tuning PHPStan to Maximum Strictness'
       abstract: |
-        TBA
+        Besides the traditional rule levels 0 through 9 which allow developers to adopt PHPStan incrementally while increasing the strictness gradually, the static analyser offers plenty of other configuration options to look at the code with a critical eye. 
+        
+        In this talk I'll show you these options with examples of practical impact on your code. 
+        
+        It will become more predictable and readable.
     social:
       - icon: 'twitter'
         url: 'https://twitter.com/OndrejMirtes'
