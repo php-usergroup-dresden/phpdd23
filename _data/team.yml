@@ -18,7 +18,7 @@ members:
     image: 'https://profile-images.xing.com/images/541f7d68c6af0e92c4f2abcf14c510b2-10/alexander-hippe.1024x1024.jpg'
 
   - name: 'Michael Pokladek'
-    image: 'https://dummyimage.com/300x300/fff/aaa'
+    image: '/assets/images/team/mpokladek.jpg'
 
   - name: 'Holger Woltersdorf'
     image: 'https://profile-images.xing.com/images/93df124d1a6ec6c68c4a5e4cf9c019d8-4/holger-woltersdorf.1024x1024.jpg'
