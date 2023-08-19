@@ -51,9 +51,13 @@ sponsors:
     image: '/assets/images/sponsors/dpunktverlag.webp'
     url: 'https://dpunkt.de/'
 
-  - name: 'webit! Gesellschaft für neue Medien mbH'
-    image: '/assets/images/sponsors/webit.webp'
-    url: 'https://www.webit.de/'
+  - name: 'XIMA MEDIA GmbH'
+    image: '/assets/images/sponsors/xima.webp'
+    url: 'https://www.xima.de/'
+
+  - name: 'shopware AG'
+    image: '/assets/images/sponsors/shopware_logo_vertical_blue.svg'
+    url: 'https://www.shopware.com/'
 
   - name: 'Rheinwerk Verlag GmbH'
     image: '/assets/images/sponsors/rheinwerk.webp'
