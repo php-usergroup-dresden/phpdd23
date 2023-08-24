@@ -28,18 +28,18 @@ speakers:
 
   - name: 'Carsten Windler'
     bio: |
-      Carsten ist langjähriger PHP-Entwickler und seit PHP 3 seiner Lieblingssprache treu. Im Laufe der Jahre leitete er zudem mehrere Entwicklungsteams und -abteilungen. Sein Fokus gilt der Codequalität und der Umweltverträglichkeit von Software.
-
-      Derzeit arbeitet er als Principal Engineer bei Plan A in Berlin, wo er das Schreiben von Code mit der Leidenschaft, den Klimawandel zu bekämpfen, verbinden kann. Er ist Co-Autor des Buches "Clean Code in PHP", das im Oktober 2022 im Packt-Verlag erschien. Außerdem schreibt er regelmäßig Artikel für Fachpublikationen wie das PHP Magazin und ist aktiver Sprecher auf Entwickler-Konferenzen.
+      Carsten is a long-time PHP developer and has been loyal to his favorite language since PHP 3. Over the years, he has also led several development teams and departments. His focus is on code quality and environmental impact of software.
+  
+      He currently works as a Principal Engineer at Plan A in Berlin, where he is able to combine writing code with a passion for fighting climate change. He is co-author of the book "Clean Code in PHP", published by Packt-Verlag in October 2022. He also regularly writes articles for professional publications such as PHP Magazine and is an active speaker at developer conferences.
     image: '/assets/images/speakers/Carsten_Windler.jpg'
     talk:
-      title: 'Pimp your PHP code for the planet - Mit besserer Performance Zeit, Geld und CO₂ sparen'
+      title: 'Pimp your PHP code for the planet - Save time, money and CO₂ with better performance'
       abstract: |
-        Knapp 8 Millionen Tonnen CO₂ stoßen allein die Rechenzentren in Deutschland jedes Jahr aus, um unsere Software zum Leben zu erwecken. PHP als die nach wie vor meistgenutzte Programmiersprache des Internets hat daran einen großen Anteil.
-
-        Doch auch abgesehen von den negativen Auswirkungen auf das globale Klima ist langsame Software einfach nur ärgerlich, denn sie kostet bares Geld und verschlechtert die User-Experience. Darum wollen wir unseren Applikationen mal gründlich auf den Zahn fühlen.
-
-        Dabei können schon kleine Änderungen große Unterschiede machen. In diesem Talk schauen wir, welche Möglichkeiten wir haben, um Bottlenecks ausfindig zu machen, und wie wir sie beheben können. Wir wollen aber auch grundsätzlich hinterfragen, wie wir zukünftig Software schreiben können, die nicht nur eine Richtung kennt: größer, schwerer, mehr.
+        Almost 8 million tons of CO₂ are emitted by data centers in Germany alone every year to bring our software to life. PHP, still the most widely used programming language on the Internet, plays a large part in this.
+        
+        But even apart from the negative impact on the global climate, slow software is simply annoying, because it costs money and worsens the user experience. That's why we want to take a close look at our applications.
+        
+        Even small changes can make a big difference. In this talk, we'll take a look at what options we have to identify bottlenecks and how we can fix them. But we also want to fundamentally question how we can write software in the future that does not only know one direction: bigger, heavier, more.
     social:
       - icon: 'linkedin'
         url: 'https://www.linkedin.com/in/cwindler'

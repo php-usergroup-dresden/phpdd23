@@ -24,14 +24,14 @@ schedule:
     time: '10:15'
     topic: 'Pimp your PHP code for the planet'
     card: '2'
-    language: ''
+    language: 'en'
     speaker: true
 
   - name: 'Sebastian Kurfürst'
     time: '11:15'
     topic: 'Debugging und Performance Profiling in der Praxis'
     card: '4'
-    language: ''
+    language: 'en'
     speaker: true
 
   - name: ''
