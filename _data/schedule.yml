@@ -15,9 +15,9 @@ schedule:
 
   - name: 'Dr. Carola Lilienthal'
     time: '09:30'
-    topic: 'Wie cool ist das denn? (Keynote)'
+    topic: 'How cool is that? (Keynote)'
     card: '1'
-    language: ''
+    language: 'en'
     speaker: true
 
   - name: 'Carsten Windler'

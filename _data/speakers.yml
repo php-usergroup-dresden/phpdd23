@@ -1,23 +1,23 @@
 speakers:
   - name: 'Dr. Carola Lilienthal'
     bio: |
-      Dr. Carola Lilienthal ist Software-Architektin und Geschäftsführerin bei WPS - Workplace Solutions GmbH. 
+      Dr. Carola Lilienthal is a software architect and managing director at WPS - Workplace Solutions GmbH. 
       
-      Seit 2003 analysiert sie die Zukunftsfähigkeit von Softwarearchitekturen und spricht auf Konferenzen über dieses Thema. 
+      Since 2003, she has been analyzing the future viability of software architectures and speaking on this topic at conferences. 
       
-      2015 hat sie ihre Erfahrungen in dem Buch „Langlebige Softwarearchitekturen“ zusammengefasst und steht kurz vor der Veröffentlichung ihres nächsten Buches „Domain-Driven Transformation“.
+      In 2015, she summarized her experiences in the book "Durable Software Architectures" and is about to publish her next book "Domain-Driven Transformation".
     image: '/assets/images/speakers/carola_lilienthal.jpg'
     talk:
-      title: 'Wie cool ist das denn?'
+      title: 'How cool is that?'
       abstract: |
-        Ein halbes Jahrhundert der Software-Entwicklung ist von einem überraschenden Phänomen geprägt: 
-        Wir, die Entwickler:innen und Architekt:innen, haben nicht nur immer wieder neue Technologien und Architekturansätze geschaffen, sondern auch Methoden und Verfahren entwickelt, die über die reine Programmierung von Software hinausgehen. 
+        Half a century of software development is characterized by a surprising phenomenon: 
+        We, the developers and architects, have not only repeatedly created new technologies and architectural approaches, but also developed methods and processes that go beyond the mere programming of software. 
         
-        Projektleiter:innen, Anwender:innen, Betriebs- und Qualitätsmanager:innen haben von unseren Innovationen profitiert. 
+        Project managers, users, operations and quality managers have all benefited from our innovations. 
         
-        In diesem Vortrag berichte ich über die erstaunlichen Beiträge, die unsere Disziplin konzipiert und entwickelt hat. 
+        In this talk, I will report on the amazing contributions that our discipline has conceived and developed.
         
-        Nach dieser Reise werdet Ihr voller Motivation in die nächsten Vorträge gehen.
+        After this journey you will be full of motivation for the next lectures.
     social:
       - icon: 'twitter'
         url: 'https://twitter.com/cairolali'
