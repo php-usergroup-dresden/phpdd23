@@ -67,6 +67,10 @@ sponsors:
     image: '/assets/images/sponsors/seventhings.webp'
     url: 'https://www.seventhings.com/'
 
+  - name: 'thePHP.cc'
+    image: '/assets/images/sponsors/thephpcclogo.svg'
+    url: 'https://thephp.cc/'
+
   - name: '☝️ Your company logo here'
     image: 'https://dummyimage.com/300x300/fff/aaa'
     url: 'mailto:orga@phpug-dresden.org'
